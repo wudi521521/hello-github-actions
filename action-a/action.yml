@@ -1,0 +1,17 @@
+name: "Github Actions & Demo Action"
+description: "Github Action description"
+author: "xgqfrms@xgqfrms.xyz"
+
+inputs:
+  MY_NAME:
+    description: "Who Are you?"
+    required: true
+    default: "webgeeker"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "green"
